@@ -73,7 +73,7 @@ class _ChooseProfileState extends State<ChooseProfile> {
               const SizedBox(
                 height: 50,
               ),
-              CustomNextButton(size: size,
+              CustomNextButton(size: size, // Custom Navigator for shorthand
                 ontap: ()=> pushToNextPage(context, const ChooseProfileTeacher()),),
             ],
           ),

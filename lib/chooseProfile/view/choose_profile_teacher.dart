@@ -46,7 +46,7 @@ class ChooseProfileTeacher extends StatelessWidget {
                   )
                 ],
               ),
-              CustomNextButton(size: size,
+              CustomNextButton(size: size, // Custom Navigator for shorthand
                 ontap: ()=> pushToNextPage(context, const ChooseProfileStudent()),),
             ],
           ),

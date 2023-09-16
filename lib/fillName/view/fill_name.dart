@@ -69,7 +69,7 @@ class _FillNameState extends State<FillName> {
                 ontap: () => pushToNextPage( 
                   context,
                   const FillRegion(),
-                ), // Custom Navigator './utils'
+                ), // Custom Navigator for shorthand
               ),
             ],
           ),
